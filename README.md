@@ -70,6 +70,7 @@ render() {
         color: 'blue', 
         fontSize: 15,
       }}
+      indexLetterClass="text-blue-400 text-base"
       renderCustomItem={(item) => (
         <View style={styles.listItemContainer}>
           <Text style={styles.listItemLabel}>{item.value}</Text>
@@ -103,6 +104,7 @@ render() {
 | `letterListContainerStyle` (optional) | Override the style of the letter list container.  | `object` | | `undefined` |
 | `indexContainerStyle` (optional) | Override the style of the list index container.  | `object` | | `undefined` |
 | `indexLetterStyle` (optional) | Override the style of the list letter index text.  | `object` | | `undefined` |
+| `indexLetterClass` (optional) | Override the tailwind class of the list letter index text.  | `string` | | `undefined` |
 | `indexLetterContainerStyle` (optional) | Override the style of the list letter index container.  | `object` | | `undefined` |
 | `uncategorizedAtTop` (optional) | If `true`, the uncategorised items (the `#` section) is moved to the top of the list.  | `boolean` | | false |
 

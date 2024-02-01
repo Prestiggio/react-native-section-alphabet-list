@@ -21,6 +21,7 @@ export interface AlphabetListProps extends Partial<SectionListProps<IData>> {
   index?: string[],
   style?: ViewStyle;
   indexLetterStyle?: TextStyle,
+  indexLetterClass?: string,
   indexLetterContainerStyle?: ViewStyle,
   indexContainerStyle?: ViewStyle,
   letterListContainerStyle?: ViewStyle,

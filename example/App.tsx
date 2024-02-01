@@ -56,6 +56,7 @@ const App = () => {
         indexLetterStyle={{
           color: colors.primary,
         }}
+        indexLetterClass="text-blue-400 font-base"
       />
     </SafeAreaView>
   );
